@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "09d28afdb7debd81",
+    "type": "split",
+    "children": [
+      {
+        "id": "df7464ef6642152b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "NETWORKING.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "776693584ee8482b",
+    "type": "split",
+    "children": [
+      {
+        "id": "226686858d6a7fa1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6136efd2fb65cb7f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "460673e5d00db1bf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Recruitment",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e7a563d03c5a4d4e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 161.5
+  },
+  "right": {
+    "id": "3aa965df4741f50b",
+    "type": "split",
+    "children": [
+      {
+        "id": "550dafe5554d9443",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f256d9a888f62ae6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "NETWORKING.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dac64839acd79a47",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "NETWORKING.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a8b1d36b0cdf0fc8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "71ae6c294154790d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "NETWORKING.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "df7464ef6642152b",
+  "lastOpenFiles": [
+    "Linux/Linux Commands/USER/useradd.md",
+    "Linux/Linux Commands/USER/userdel.md",
+    "Linux/Linux Commands/USER/usermod.md",
+    "Linux/Linux Commands/USER/passwd.md",
+    "Linux/Linux Commands/USER/USER.md",
+    "Linux/Linux Commands/USEFUL/id.md",
+    "Linux/Linux Commands/PERMISSIONS/chown.md",
+    "Recruitment/Cover Letter.md",
+    "Linux/Linux Commands/PERMISSIONS/PERMISSIONS.md",
+    "Linux/Linux Commands/PERMISSIONS/chmod.md"
+  ]
+}

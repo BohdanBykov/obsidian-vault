@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "Recruitment",
+      "color": {
+        "a": 1,
+        "rgb": 3937535
+      }
+    },
+    {
+      "query": "Linux",
+      "color": {
+        "a": 1,
+        "rgb": 15662848
+      }
+    },
+    {
+      "query": "Python",
+      "color": {
+        "a": 1,
+        "rgb": 14722386
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 0.967134831460674,
+  "lineSizeMultiplier": 2.28848314606742,
+  "collapse-forces": false,
+  "centerStrength": 0.427083333333333,
+  "repelStrength": 11.1797752808989,
+  "linkStrength": 0.739583333333333,
+  "linkDistance": 30,
+  "scale": 0.22308880229371508,
+  "close": false
+}

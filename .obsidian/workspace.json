@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "09d28afdb7debd81",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3d2365aacc6b97b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1dc7f1a9e5080aa9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "5e9178f194631588",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/git clone.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a75f957adbb3545e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps materials.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94d80919c4ac4fa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/SQL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "776693584ee8482b",
+    "type": "split",
+    "children": [
+      {
+        "id": "226686858d6a7fa1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6136efd2fb65cb7f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "460673e5d00db1bf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e7a563d03c5a4d4e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "3aa965df4741f50b",
+    "type": "split",
+    "children": [
+      {
+        "id": "550dafe5554d9443",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f256d9a888f62ae6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DevOps materials.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dac64839acd79a47",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DevOps materials.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a8b1d36b0cdf0fc8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "71ae6c294154790d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DevOps materials.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a75f957adbb3545e",
+  "lastOpenFiles": [
+    "Pasted image 20221026171547.png",
+    "netcat.md",
+    "Linux/Linux Commands/Devices/rmmod.md",
+    "Linux/Linux Commands/PROCESSES/pstree.md",
+    "SQL/SQL.md",
+    "Linux/Bash/Bash.md",
+    "Methodologies/Agile.md",
+    "Linux/Bash.md",
+    "Docker/docker create.md",
+    "Docker/docker run.md"
+  ]
+}
