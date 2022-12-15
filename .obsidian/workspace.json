@@ -8,44 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1dc7f1a9e5080aa9",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "5e9178f194631588",
+            "id": "39862e279a402c11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/git clone.md",
+                "file": "README.md.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a75f957adbb3545e",
+            "id": "1d1adb18f2c0742b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps materials.md",
+                "file": "AWS/AWS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "94d80919c4ac4fa7",
+            "id": "9870cf2e5d040a0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQL.md",
+                "file": "AWS/AWS DevOps tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevOps materials.md",
+                "file": "AWS/AWS DevOps tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevOps materials.md",
+                "file": "AWS/AWS DevOps tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,28 +150,29 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevOps materials.md"
+                "file": "AWS/AWS DevOps tools.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
-  "active": "a75f957adbb3545e",
+  "active": "9870cf2e5d040a0c",
   "lastOpenFiles": [
-    "Pasted image 20221026171547.png",
-    "netcat.md",
-    "Linux/Linux Commands/Devices/rmmod.md",
-    "Linux/Linux Commands/PROCESSES/pstree.md",
-    "SQL/SQL.md",
-    "Linux/Bash/Bash.md",
-    "Methodologies/Agile.md",
-    "Linux/Bash.md",
-    "Docker/docker create.md",
-    "Docker/docker run.md"
+    "Images/Pasted image 20221215172525.png",
+    "DevOps materials.md",
+    "Images/Pasted image 20221215201043.png",
+    "Images/Pasted image 20221215194211.png",
+    "Images/Pasted image 20221215190053.png",
+    "Images/Pasted image 20221215165342.png",
+    "Images/Pasted image 20221213181704.png",
+    "Images/Pasted image 20221213181439.png",
+    "Images/Pasted image 20221213181226.png",
+    "Images/Pasted image 20221213181005.png"
   ]
 }
