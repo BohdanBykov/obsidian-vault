@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c3d2365aacc6b97b",
+        "id": "59de496c3aabd35b",
         "type": "tabs",
         "children": [
           {
-            "id": "39862e279a402c11",
+            "id": "e474e88f5bd7b1de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d1adb18f2c0742b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/AWS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9870cf2e5d040a0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/AWS DevOps tools.md",
-                "mode": "source",
+                "file": "awk.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,12 +64,24 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "b86b02611049dbb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux Commands/NETWORKING/traceroute.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 236.50043487548828
   },
   "right": {
     "id": "3aa965df4741f50b",
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/AWS DevOps tools.md",
+                "file": "awk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/AWS DevOps tools.md",
+                "file": "awk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/AWS DevOps tools.md"
+                "file": "awk.md"
               }
             }
           }
@@ -162,17 +149,27 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "9870cf2e5d040a0c",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e474e88f5bd7b1de",
   "lastOpenFiles": [
-    "Images/Pasted image 20221215172525.png",
-    "DevOps materials.md",
-    "Images/Pasted image 20221215201043.png",
-    "Images/Pasted image 20221215194211.png",
-    "Images/Pasted image 20221215190053.png",
-    "Images/Pasted image 20221215165342.png",
-    "Images/Pasted image 20221213181704.png",
-    "Images/Pasted image 20221213181439.png",
-    "Images/Pasted image 20221213181226.png",
-    "Images/Pasted image 20221213181005.png"
+    "Linux/Linux Commands/TEXT/grep.md",
+    "Templates/Ln Commands Template.md",
+    "awk.md",
+    "Linux/Linux Commands/TEXT/echo.md",
+    "Linux/Linux Commands/NETWORKING/mtr.md",
+    "Linux/Linux Commands/TEXT/cat.md",
+    "Linux/Linux Commands/NETWORKING/tcpdump.md",
+    "Linux/Linux Commands/NETWORKING/traceroute.md",
+    "Linux/Linux Commands/NETWORKING/DNS.md",
+    "Linux/Linux Commands/NETWORKING/ifconfig.md"
   ]
 }

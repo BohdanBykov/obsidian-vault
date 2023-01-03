@@ -1,49 +1,160 @@
-#  Command [[Linux/Linux Commands/USEFUL/grep]] :
-
 ***
-
 ## About:
-
-### - tool to search words
+grep - (global regular expression print)
+grep is a tool that can search for a specified pattern or patterns in a text file.
+It copy each line of file in buffer and print it only if it match search pattern.
 
 ***
-
+```sh
+#a_file
+boot 
+book
+booze
+machine
+boots
+bungie
+bark
+aardvark
+broken$tuff
+robots
+grep
+grep grep
+```
 
 ## Use Cases:
-
-### - use [[I]] grep to find process
+---
+- #### search for "boo" string in a_file
 ```sh
-[bohdan@fedora testdirectory]$ top | grep spotify
-  13499 bohdan    20   0   29.6g 438272 106252 S   6.2   3.8   9:18.22 spotify                                                                    
-  13416 bohdan    20   0 3569252 264244 148092 S   6.0   2.3   9:12.75 spotify                                                                    
-  13499 bohdan    20   0   29.6g 437904 106308 S   3.0   3.8   9:18.31 spotify                                                                    
-  13437 bohdan    20   0 1667764 132772  97284 S   1.0   1.1   2:23.35 spotify                                                                    
-  13416 bohdan    20   0 3569252 264244 148092 S   6.0   2.3   9:12.93 spotify                                                                    
-
+╭─bohdan@fedora ~/github/for-tests/grep_awk_sed ‹main●› 
+╰─$ grep "boo" a_file
+boot 
+book
+booze
+boots
 ```
 
-### - use [[I]] grep to find words in text file
+ ---
+ - #### (-n) specify row number 
 ```sh
-[bohdan@fedora testdirectory]$ cat folder.txt
-a1
-a2
-a3
-dirtest
-folder.txt
-permissions.txt
-ps2.txt
-test.txt
-test
-testfile
-test.txt
-[bohdan@fedora testdirectory]$ cat folder.txt | grep a
-a1
-a2
-a3
-[bohdan@fedora testdirectory]$ 
+╭─bohdan@fedora ~/github/for-tests/grep_awk_sed ‹main●› 
+╰─$ grep -n "boo" a_file
+1:boot 
+2:book
+3:booze
+5:boots
 ```
 
-## Keys:
+---
+ - #### (-v) print rows that don't match search pattern
+```sh
+╭─bohdan@fedora ~/github/for-tests/grep_awk_sed ‹main●› 
+╰─$ grep -vn "boo" a_file
+4:machine
+6:bungie
+7:bark
+8:aardvark
+9:broken$tuff
+10:robots
+```
+
+---
+- #### (-c) print number of rows matched search pattern
+```sh
+╭─bohdan@fedora ~/github/for-tests/grep_awk_sed ‹main●› 
+╰─$ grep "boo" a_file    
+boot 
+book
+booze
+boots
+--------------------------------------------------------------------------------- 
+╰─$ grep -c "boo" a_file
+4
+```
+
+---
+- #### (-l) print name of files that include string you search
+```sh
+╭─bohdan@fedora ~/github/for-tests/grep_awk_sed ‹main●› 
+╰─$ grep -l "boo" *
+a_file
+```
+
+---
+- #### (-i) ignore (upper/lower) case
+```sh
+╭─bohdan@fedora ~/github/for-tests/grep_awk_sed ‹main●› 
+╰─$ grep -i "BOO" a_file
+boot 
+book
+booze
+boots
+```
+
+---
+- #### (-x) search for exact matches in row only
+```sh
+╭─bohdan@fedora ~/github/for-tests/grep_awk_sed ‹main●› 
+╰─$ grep -nx "grep" a_file
+11:grep
+```
+
+---
+- #### (-A) additional rows to search result
+```sh
+╭─bohdan@fedora ~/github/for-tests/grep_awk_sed ‹main●› 
+╰─$ grep -A2 "mach" a_file
+machine
+boots
+bungie
+```
+
+### [Regular Expressions](https://gnosis.cx/publish/programming/regular_expressions.html)
+
+---
+- #### ($) search with string in the end
+```sh
+╭─bohdan@fedora ~/github/for-tests/grep_awk_sed ‹main●› 
+╰─$ grep "e$" a_file
+booze
+machine
+bungie
+```
+
+- #### (-E) use wider range of regexp commands
+---
+- #### (?) print results that match +- 1 letter before "?"
+```sh
+╭─bohdan@fedora ~/github/for-tests/grep_awk_sed ‹main●› 
+╰─$ grep -E "boots?" a_file                                                                                                                                             
+boot 
+boots
+```
+
+---
+- #### ( \| ) combine search patterns in "or" statement
+```sh
+╭─bohdan@fedora ~/github/for-tests/grep_awk_sed ‹main●› 
+╰─$ grep -E "boots|machine" a_file
+machine
+boots
+```
+
+---
+- #### ( \\ ) ignore special character
+```sh
+╭─bohdan@fedora ~/github/for-tests/grep_awk_sed ‹main●› 
+╰─$ grep '\$' a_file
+broken$tuff
+```
+
+***
+### Help:
+```sh
+Usage: grep [OPTION]... PATTERNS [FILE]...
+```
+
+***
+### Keys:
 ```sh
 Pattern selection and interpretation:
   -E, --extended-regexp     PATTERNS are extended regular expressions
@@ -108,23 +219,4 @@ Context control:
   -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)
 
 ```
-
-### --help
-```sh
-[bohdan@fedora ~]$ grep --help
-Usage: grep [OPTION]... PATTERNS [FILE]...
-Search for PATTERNS in each FILE.
-Example: grep -i 'hello world' menu.h main.c
-PATTERNS can contain multiple patterns separated by newlines.
-
-When FILE is '-', read standard input.  With no FILE, read '.' if
-recursive, '-' otherwise.  With fewer than two FILEs, assume -h.
-Exit status is 0 if any line is selected, 1 otherwise;
-if any error occurs and -q is not given, the exit status is 2.
-```
-
-***
-
-## [[USEFUL]]
-
 ***

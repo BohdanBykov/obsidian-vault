@@ -10,7 +10,7 @@
 
 ## Use Cases:
 
-### - use [[top]] I [[grep]] to find my processes
+### - use [[top]] I [[Linux/Linux Commands/USEFUL/grep]] to find my processes
 ```sh
 [bohdan@fedora ~]$ top | grep bohdan
    2427 bohdan    20   0  528548  12372   6636 S   6.2   0.1   0:23.49 ibus-daemon                                                                

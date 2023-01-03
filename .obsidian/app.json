@@ -1,5 +1,11 @@
 {
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "tabSize": 5
+  "tabSize": 5,
+  "spellcheckDictionary": [
+    "Nmap",
+    "awk",
+    "awk",
+    "awk"
+  ]
 }
